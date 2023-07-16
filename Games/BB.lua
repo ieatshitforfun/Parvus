@@ -1006,6 +1006,8 @@ local function ProjectileBeam(Origin,Direction)
 
     Beam.Parent = Workspace
 
+    Beam.Texture = "rbxassetid://6060542158"
+    
     task.spawn(function()
         local Time = 60 * 1
         for Index = 1,Time do
